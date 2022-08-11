@@ -26,7 +26,7 @@ int main()
     t= clock() -t;
     double time_spend= ((double)(t))/CLOCKS_PER_SEC;
     cout<<"10000 Threads takes"<<time_spend<<endl;
-/*
+
    clock_t t2;
     t2 = clock();
 
@@ -37,7 +37,7 @@ int main()
     double time_spend2= ((double)(t2))/CLOCKS_PER_SEC;
     cout<<"20000 Threads takes"<<time_spend2<<endl;
 
-    /*clock_t t3;
+    clock_t t3;
     t3=clock();
 
     for(int i=0; i<50000; i++)
@@ -46,6 +46,6 @@ int main()
     t3=clock()-t3;
     double time_spend3= ((double)(t3))/CLOCKS_PER_SEC;
     cout<<"50000 Threads takes"<<time_spend3<<endl;
-    */
+    
     return 0;
 }
