@@ -16,7 +16,7 @@ int main()
    // creating thread id
     pthread_t id;
     int ret;
-   
+   //hi
     clock_t t;
     t = clock();
 

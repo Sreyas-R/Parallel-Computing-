@@ -15,6 +15,7 @@ void *printPDC(void *args)
 int main()
 {
     pthread_t thread1;
+    //creating the thread
     pthread_t thread2;
     
     pthread_create(&thread1, 0, &printPDC, NULL);
